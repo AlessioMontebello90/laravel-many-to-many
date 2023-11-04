@@ -1,0 +1,24 @@
+@use "./partials/variables" as *;
+@use "./partials/mixins" as *;
+
+@import "~bootstrap/scss/bootstrap";
+
+a {
+    color: currentColor;
+    text-decoration: none;
+    &:hover {
+        color: dodgerblue;
+    }
+}
+.delete-btn {
+    color: currentColor;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        color: dodgerblue;
+    }
+}
+
+.inline {
+    display: inline-block;
+}
